@@ -9,6 +9,6 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return a < b < c 
+    return (a < b and b < c) or (c < b and b < a)
 
 print(main(3,4,5))
