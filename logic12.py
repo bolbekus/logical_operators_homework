@@ -8,7 +8,7 @@ def main(a):
         bool: answer
     """
     x1 = a % 10
-    x2 = a // 10
+    x2 = a // 10 % 10
     return x1 == x2
 
 
