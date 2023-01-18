@@ -10,6 +10,8 @@ def main(a):
     x1 = a % 10 
     x2 = a // 10 % 10
 
-    return x1 % 2 == 0 + x2 % 2 == 0
+    s = x1 + x2
 
-print(main(45))
+    return s % 2 == 0
+
+print(main(86))
