@@ -7,7 +7,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return a > 9 
+    return a > 9 and a < 100
 
 
 print(main(12))
