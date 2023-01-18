@@ -12,4 +12,4 @@ def main(a):
     return x1 % 2 == 1 + x2 % 2 == 1
 
 
-print(main(45))
+print(main(36))
