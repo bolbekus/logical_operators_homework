@@ -6,4 +6,10 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x1 = a % 10
+    x2 = a // 10
+
+    return x1 % 2 == 1 + x2 % 2 == 1
+
+
+print(main(45))
